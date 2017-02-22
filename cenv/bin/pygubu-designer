@@ -1,0 +1,10 @@
+#!/var/www/html/Optimum-Clouds-Network/cenv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'pygubu==0.9.8','gui_scripts','pygubu-designer'
+__requires__ = 'pygubu==0.9.8'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('pygubu==0.9.8', 'gui_scripts', 'pygubu-designer')()
+    )
